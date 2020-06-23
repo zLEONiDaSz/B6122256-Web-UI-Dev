@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+    9deg,
+    rgba(25, 18, 65, 1) 0%,
+    rgba(25, 21, 71, 1) 19%,
+    rgba(25, 32, 90, 1) 37%,
+    rgba(25, 50, 120, 1) 58%,
+    rgba(26, 74, 162, 1) 77%,
+    rgba(27, 95, 197, 1) 100%
+  );
+}
+
+/* ========================== banner ==========================  */
+
+.banner {
+  width: 100%;
+  height: 50rem;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.logo_banner {
+  width: 60%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* ========================== banner ==========================  */
+
+/* ========================== page1 ==========================  */
+
+.page1_container {
+  margin-top: 4.479166666666667%;
+}
+
+.page1-grid {
+  display: grid;
+  grid-template-columns: 56.19791666666667% 1fr;
+}
+
+.page1_photo {
+  background-image: url(../images/img_page1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 35rem;
+}
+
+.page1_content_grid {
+  margin: 1.570833333333333% 0 0 -9.739583333333333%;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.page1_content {
+  grid-column: 1 /3;
+}
+
+.header_content {
+  width: 66%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  padding: 0.7vh 0;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(221, 32, 106, 1) 0%,
+    rgba(222, 38, 104, 1) 22%,
+    rgba(227, 57, 101, 1) 47%,
+    rgba(234, 87, 95, 1) 75%,
+    rgba(241, 113, 90, 1) 100%
+  );
+  border-radius: 3vh;
+}
+
+.header_content h2 {
+  font-family: "sutregular";
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.body_content {
+  width: 85%;
+  height: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(37, 69, 188, 1) 0%,
+    rgba(91, 64, 167, 1) 15%,
+    rgba(113, 63, 160, 1) 40%,
+    rgba(171, 37, 136, 1) 70%,
+    rgba(208, 21, 122, 1) 84%,
+    rgba(222, 16, 117, 1) 100%
+  );
+  border-radius: 5% 10% 10%;
+  opacity: 0.8;
+  margin-top: -2.6rem;
+  box-shadow: 2px 8px 14px 0px rgba(62, 75, 73, 0.25);
+}
+
+.body_content.white-bg {
+  background: white !important;
+}
+
+.text_content {
+  font-family: "sutregular";
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+  padding: 2rem 3rem 2rem 3rem;
+  opacity: 1;
+}
+
+.text_content.black-text {
+  color: #000000;
+}
+
+.text_content li {
+  margin-top: 1.5rem;
+}
+
+.circle {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  top: 50%;
+  left: 50%;
+  background: cornflowerblue;
+  z-index: -1;
+  border-radius: 50%;
+}
+/* ========================== page1 ==========================  */
